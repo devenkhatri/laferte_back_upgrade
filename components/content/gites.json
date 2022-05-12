@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_content_gites",
+  "info": {
+    "name": "Gites",
+    "icon": "bed"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "required": true
+    },
+    "Capacite": {
+      "type": "integer"
+    },
+    "Equipement": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Prix": {
+      "type": "string"
+    },
+    "Galerie": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "LienVisiteGoogle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

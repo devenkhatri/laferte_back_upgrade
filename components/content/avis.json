@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_avis",
+  "info": {
+    "name": "avis",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Avis": {
+      "type": "text"
+    }
+  }
+}

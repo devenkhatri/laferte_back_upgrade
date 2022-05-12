@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_content_titre_descriptions",
+  "info": {
+    "name": "TitreDescription",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/horaires-tarifs",
+      "handler": "horaires-tarifs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/horaires-tarifs",
+      "handler": "horaires-tarifs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/horaires-tarifs",
+      "handler": "horaires-tarifs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

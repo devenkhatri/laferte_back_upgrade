@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gites",
+      "handler": "gites.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gites",
+      "handler": "gites.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gites",
+      "handler": "gites.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

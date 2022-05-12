@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/les-escape-games",
+      "handler": "les-escape-games.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/les-escape-games",
+      "handler": "les-escape-games.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/les-escape-games",
+      "handler": "les-escape-games.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

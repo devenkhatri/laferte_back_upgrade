@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_description_cards",
+  "info": {
+    "name": "DescriptionCard",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Bouton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "selectors.button"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/salles-de-reception",
+      "handler": "salles-de-reception.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/salles-de-reception",
+      "handler": "salles-de-reception.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/salles-de-reception",
+      "handler": "salles-de-reception.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tournage",
+      "handler": "tournage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tournage",
+      "handler": "tournage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tournage",
+      "handler": "tournage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

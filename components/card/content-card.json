@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_card_content_cards",
+  "info": {
+    "name": "ContentCard",
+    "icon": "battery-full"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "SousTitre": {
+      "type": "string"
+    },
+    "DescriptionCourte": {
+      "type": "text"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Contenu": {
+      "type": "richtext"
+    }
+  }
+}

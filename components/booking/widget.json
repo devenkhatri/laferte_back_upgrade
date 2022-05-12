@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_booking_widgets",
+  "info": {
+    "name": "Widget",
+    "icon": "battery-quarter"
+  },
+  "options": {},
+  "attributes": {
+    "idPanier": {
+      "type": "string"
+    },
+    "ui": {
+      "type": "string"
+    },
+    "langue": {
+      "type": "string"
+    },
+    "idIntegration": {
+      "type": "integer"
+    },
+    "Actif": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

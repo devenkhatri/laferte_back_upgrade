@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_description_activites",
+  "info": {
+    "name": "DescriptionActivite",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Bouton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "selectors.button"
+    },
+    "Duree": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

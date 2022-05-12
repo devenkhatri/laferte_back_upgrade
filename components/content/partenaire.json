@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_content_partenaires",
+  "info": {
+    "name": "Partenaire",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "LabelBoutton": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

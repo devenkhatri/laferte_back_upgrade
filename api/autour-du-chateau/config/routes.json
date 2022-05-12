@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/autour-du-chateau",
+      "handler": "autour-du-chateau.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/autour-du-chateau",
+      "handler": "autour-du-chateau.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/autour-du-chateau",
+      "handler": "autour-du-chateau.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

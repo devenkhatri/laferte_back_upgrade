@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/le-parcours-des-poisons",
+      "handler": "le-parcours-des-poisons.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/le-parcours-des-poisons",
+      "handler": "le-parcours-des-poisons.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/le-parcours-des-poisons",
+      "handler": "le-parcours-des-poisons.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

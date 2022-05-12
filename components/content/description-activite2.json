@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_content_description_activite2_s",
+  "info": {
+    "name": "DescriptionActivite2",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Capacite": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptionBis": {
+      "type": "text",
+      "required": true
+    },
+    "Bouton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "selectors.button",
+      "required": true
+    },
+    "Duree": {
+      "type": "string",
+      "required": false
+    },
+    "Widget": {
+      "type": "component",
+      "repeatable": false,
+      "component": "booking.widget"
+    }
+  }
+}

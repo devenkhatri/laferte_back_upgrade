@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reservation",
+      "handler": "reservation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reservation",
+      "handler": "reservation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reservation",
+      "handler": "reservation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

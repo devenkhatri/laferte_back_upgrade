@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/meurtre-au-chateau",
+      "handler": "meurtre-au-chateau.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/meurtre-au-chateau",
+      "handler": "meurtre-au-chateau.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/meurtre-au-chateau",
+      "handler": "meurtre-au-chateau.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

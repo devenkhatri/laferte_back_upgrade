@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_info_cards",
+  "info": {
+    "name": "InfoCard",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "selectors.button"
+    }
+  }
+}

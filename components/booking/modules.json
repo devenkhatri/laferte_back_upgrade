@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_booking_modules",
+  "info": {
+    "name": "Modules",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Widget": {
+      "type": "component",
+      "repeatable": false,
+      "component": "booking.widget"
+    }
+  }
+}

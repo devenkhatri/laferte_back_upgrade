@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_content_produit_par_ages",
+  "info": {
+    "name": "Produit par ages",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "NomDuProduit": {
+      "type": "string",
+      "required": true
+    },
+    "Adulte": {
+      "type": "decimal",
+      "required": true
+    },
+    "Reduit": {
+      "type": "decimal",
+      "required": true
+    },
+    "Enfants": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_partenaire_webs",
+  "info": {
+    "name": "PartenaireWeb",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "Url": {
+      "type": "string"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

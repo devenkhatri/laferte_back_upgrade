@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_produits_desc",
+  "info": {
+    "name": "ProduitsDescription",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "required": true
+    },
+    "Prix": {
+      "type": "decimal",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": false
+    }
+  }
+}

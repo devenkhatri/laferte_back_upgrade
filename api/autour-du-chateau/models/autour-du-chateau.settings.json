@@ -1,0 +1,92 @@
+{
+  "kind": "singleType",
+  "collectionName": "autour_du_chateaus",
+  "info": {
+    "name": "AutourDuChateau",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Description": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "ImageEntete": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "OuDormir": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.lieu-proche-card",
+      "max": 3,
+      "min": 3,
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "OuManger": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.lieu-proche-card",
+      "max": 3,
+      "min": 3,
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Autre": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.lieu-proche-card",
+      "max": 3,
+      "min": 3,
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

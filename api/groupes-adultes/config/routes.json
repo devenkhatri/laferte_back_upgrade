@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/groupes-adultes",
+      "handler": "groupes-adultes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/groupes-adultes",
+      "handler": "groupes-adultes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/groupes-adultes",
+      "handler": "groupes-adultes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

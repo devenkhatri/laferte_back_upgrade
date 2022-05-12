@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_content_tarifs_card2_s",
+  "info": {
+    "name": "TarifsCard2",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Produit": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.produit-par-age",
+      "required": true,
+      "min": 1,
+      "max": 3
+    },
+    "InfoTarif": {
+      "type": "text"
+    },
+    "Bouton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "selectors.button",
+      "required": true
+    }
+  }
+}

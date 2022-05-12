@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_content_lieu_proche_cards",
+  "info": {
+    "name": "LieuProcheCard",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "NomDuLieu": {
+      "type": "string",
+      "required": true
+    },
+    "DescriptionLieu": {
+      "type": "string",
+      "required": true
+    },
+    "Distance": {
+      "type": "decimal",
+      "required": true
+    },
+    "Url": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

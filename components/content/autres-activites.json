@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_autres_activites",
+  "info": {
+    "name": "AutresActivites",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Activite": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.activite1",
+      "required": true,
+      "max": 4,
+      "min": 4
+    }
+  }
+}

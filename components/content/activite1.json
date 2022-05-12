@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_activite1_s",
+  "info": {
+    "name": "Activite1",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "ImageActivite": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "TitreActivite": {
+      "type": "string",
+      "required": true
+    },
+    "DescriptionActivite": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/presse",
+      "handler": "presse.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/presse",
+      "handler": "presse.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/presse",
+      "handler": "presse.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

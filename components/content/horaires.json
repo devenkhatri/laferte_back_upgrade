@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_content_horaires",
+  "info": {
+    "name": "Horaires",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "Horaires": {
+      "type": "string",
+      "required": true
+    },
+    "Produits": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "content.produit-par-age"
+    }
+  }
+}

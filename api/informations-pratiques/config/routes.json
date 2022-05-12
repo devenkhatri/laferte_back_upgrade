@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/informations-pratiques",
+      "handler": "informations-pratiques.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/informations-pratiques",
+      "handler": "informations-pratiques.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/informations-pratiques",
+      "handler": "informations-pratiques.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

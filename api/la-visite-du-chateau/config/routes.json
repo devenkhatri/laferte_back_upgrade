@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/la-visite-du-chateau",
+      "handler": "la-visite-du-chateau.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/la-visite-du-chateau",
+      "handler": "la-visite-du-chateau.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/la-visite-du-chateau",
+      "handler": "la-visite-du-chateau.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

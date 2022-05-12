@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/noel-au-chateau",
+      "handler": "noel-au-chateau.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/noel-au-chateau",
+      "handler": "noel-au-chateau.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/noel-au-chateau",
+      "handler": "noel-au-chateau.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

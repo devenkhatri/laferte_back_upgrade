@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_content_question_reponses",
+  "info": {
+    "name": "QuestionReponse",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string",
+      "required": true
+    },
+    "Reponse": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

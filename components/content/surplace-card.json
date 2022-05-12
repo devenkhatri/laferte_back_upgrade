@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_surplace_cards",
+  "info": {
+    "name": "SurplaceCard",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
